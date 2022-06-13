@@ -1,9 +1,9 @@
 package src.creational.factorymethod;
 
-public class DecodedIamge {
+public class DecodedImage {
     private String image;
 
-    public DecodedIamge(String image) {
+    public DecodedImage(String image) {
         this.image = image;
     }
 

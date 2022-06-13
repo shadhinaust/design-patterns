@@ -1,14 +1,14 @@
 package src.creational.factorymethod;
 
 public class JpegReader implements ImageReader {
-    private DecodedIamge decodedIamge;
+    private final DecodedImage decodedImage;
 
     public JpegReader(String image) {
-        this.decodedIamge = new DecodedIamge(image);
+        this.decodedImage = new DecodedImage(image);
     }
 
     @Override
-    public DecodedIamge getDecodedImage() {
-        return decodedIamge;
+    public DecodedImage getDecodedImage() {
+        return decodedImage;
     }
 }

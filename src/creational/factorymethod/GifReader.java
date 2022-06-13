@@ -1,14 +1,14 @@
 package src.creational.factorymethod;
 
 public class GifReader implements ImageReader {
-    private DecodedIamge decodedImage;
+    private DecodedImage decodedImage;
 
     public GifReader(String image) {
-        this.decodedImage = new DecodedIamge(image);
+        this.decodedImage = new DecodedImage(image);
     }
 
     @Override
-    public DecodedIamge getDecodedImage() {
+    public DecodedImage getDecodedImage() {
         return decodedImage;
     }
 }

@@ -1,10 +1,8 @@
 package src.creational.factorymethod;
 
-import java.util.Locale;
-
 public class FactoryClient {
     public static void main(String[] args) {
-        DecodedIamge decodedIamge;
+        DecodedImage decodedImage;
         ImageReader reader = null;
         String image = args[0];
         String format = image.substring(image.indexOf('.') + 1, image.length());
@@ -15,7 +13,7 @@ public class FactoryClient {
         }
 
         assert reader != null;
-        decodedIamge = reader.getDecodedImage();
-        System.out.println(decodedIamge);
+        decodedImage = reader.getDecodedImage();
+        System.out.println(decodedImage);
     }
 }
