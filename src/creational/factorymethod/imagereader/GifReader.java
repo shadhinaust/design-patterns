@@ -1,4 +1,4 @@
-package src.creational.factorymethod;
+package src.creational.factorymethod.imagereader;
 
 public class GifReader implements ImageReader {
     private DecodedImage decodedImage;

@@ -1,4 +1,4 @@
-package src.creational.factorymethod;
+package src.creational.factorymethod.imagereader;
 
 public class DecodedImage {
     private String image;
